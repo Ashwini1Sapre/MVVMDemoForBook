@@ -13,10 +13,16 @@
 		60C5E9762615DAAD008F5D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C5E9752615DAAD008F5D33 /* Assets.xcassets */; };
 		60C5E9792615DAAD008F5D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C5E9782615DAAD008F5D33 /* Preview Assets.xcassets */; };
 		60C5E97C2615DAAD008F5D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C5E97A2615DAAD008F5D33 /* LaunchScreen.storyboard */; };
+		60C5E9892615E17F008F5D33 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E9882615E17F008F5D33 /* ModelView.swift */; };
+		60C5E98E2615E3C2008F5D33 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 60C5E98D2615E3C2008F5D33 /* Events.json */; };
+		60C5E9912615E3CB008F5D33 /* Participants.json in Resources */ = {isa = PBXBuildFile; fileRef = 60C5E9902615E3CB008F5D33 /* Participants.json */; };
+		60C5E9942615E3EA008F5D33 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E9932615E3EA008F5D33 /* TestData.swift */; };
+		60C5E9992615EDAC008F5D33 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E9982615EDAC008F5D33 /* EventsView.swift */; };
+		60C5E99E2615F85F008F5D33 /* TableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E99D2615F85F008F5D33 /* TableItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		60C5E96C2615DAAB008F5D33 /* MVVMDemoForBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemoForBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C5E96C2615DAAB008F5D33 /* GenericDemoForEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericDemoForEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C5E96F2615DAAB008F5D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60C5E9712615DAAB008F5D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		60C5E9732615DAAB008F5D33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		60C5E9782615DAAD008F5D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60C5E97B2615DAAD008F5D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60C5E97D2615DAAD008F5D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C5E9882615E17F008F5D33 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		60C5E98D2615E3C2008F5D33 /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		60C5E9902615E3CB008F5D33 /* Participants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Participants.json; sourceTree = "<group>"; };
+		60C5E9932615E3EA008F5D33 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		60C5E9982615EDAC008F5D33 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		60C5E99D2615F85F008F5D33 /* TableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +60,7 @@
 		60C5E96D2615DAAB008F5D33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60C5E96C2615DAAB008F5D33 /* MVVMDemoForBook.app */,
+				60C5E96C2615DAAB008F5D33 /* GenericDemoForEvent.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +68,10 @@
 		60C5E96E2615DAAB008F5D33 /* MVVMDemoForBook */ = {
 			isa = PBXGroup;
 			children = (
+				60C5E99C2615F845008F5D33 /* Protocol */,
+				60C5E9962615ED86008F5D33 /* View */,
+				60C5E98C2615E39C008F5D33 /* JsonFile */,
+				60C5E9872615E165008F5D33 /* Model */,
 				60C5E96F2615DAAB008F5D33 /* AppDelegate.swift */,
 				60C5E9712615DAAB008F5D33 /* SceneDelegate.swift */,
 				60C5E9732615DAAB008F5D33 /* ContentView.swift */,
@@ -63,6 +79,7 @@
 				60C5E97A2615DAAD008F5D33 /* LaunchScreen.storyboard */,
 				60C5E97D2615DAAD008F5D33 /* Info.plist */,
 				60C5E9772615DAAD008F5D33 /* Preview Content */,
+				60C5E9932615E3EA008F5D33 /* TestData.swift */,
 			);
 			path = MVVMDemoForBook;
 			sourceTree = "<group>";
@@ -75,12 +92,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		60C5E9872615E165008F5D33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60C5E9882615E17F008F5D33 /* ModelView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60C5E98C2615E39C008F5D33 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				60C5E98D2615E3C2008F5D33 /* Events.json */,
+				60C5E9902615E3CB008F5D33 /* Participants.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+		60C5E9962615ED86008F5D33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60C5E9982615EDAC008F5D33 /* EventsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60C5E99C2615F845008F5D33 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				60C5E99D2615F85F008F5D33 /* TableItem.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60C5E96B2615DAAB008F5D33 /* MVVMDemoForBook */ = {
+		60C5E96B2615DAAB008F5D33 /* GenericDemoForEvent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60C5E9802615DAAD008F5D33 /* Build configuration list for PBXNativeTarget "MVVMDemoForBook" */;
+			buildConfigurationList = 60C5E9802615DAAD008F5D33 /* Build configuration list for PBXNativeTarget "GenericDemoForEvent" */;
 			buildPhases = (
 				60C5E9682615DAAB008F5D33 /* Sources */,
 				60C5E9692615DAAB008F5D33 /* Frameworks */,
@@ -90,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = MVVMDemoForBook;
+			name = GenericDemoForEvent;
 			productName = MVVMDemoForBook;
-			productReference = 60C5E96C2615DAAB008F5D33 /* MVVMDemoForBook.app */;
+			productReference = 60C5E96C2615DAAB008F5D33 /* GenericDemoForEvent.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60C5E9672615DAAB008F5D33 /* Build configuration list for PBXProject "MVVMDemoForBook" */;
+			buildConfigurationList = 60C5E9672615DAAB008F5D33 /* Build configuration list for PBXProject "GenericDemoForEvent" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60C5E96B2615DAAB008F5D33 /* MVVMDemoForBook */,
+				60C5E96B2615DAAB008F5D33 /* GenericDemoForEvent */,
 			);
 		};
 /* End PBXProject section */
@@ -132,9 +182,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C5E98E2615E3C2008F5D33 /* Events.json in Resources */,
 				60C5E97C2615DAAD008F5D33 /* LaunchScreen.storyboard in Resources */,
 				60C5E9792615DAAD008F5D33 /* Preview Assets.xcassets in Resources */,
 				60C5E9762615DAAD008F5D33 /* Assets.xcassets in Resources */,
+				60C5E9912615E3CB008F5D33 /* Participants.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +199,11 @@
 			files = (
 				60C5E9702615DAAB008F5D33 /* AppDelegate.swift in Sources */,
 				60C5E9722615DAAB008F5D33 /* SceneDelegate.swift in Sources */,
+				60C5E9892615E17F008F5D33 /* ModelView.swift in Sources */,
+				60C5E99E2615F85F008F5D33 /* TableItem.swift in Sources */,
+				60C5E9942615E3EA008F5D33 /* TestData.swift in Sources */,
 				60C5E9742615DAAB008F5D33 /* ContentView.swift in Sources */,
+				60C5E9992615EDAC008F5D33 /* EventsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +347,7 @@
 				DEVELOPMENT_TEAM = DD73F8592Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MVVMDemoForBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +369,7 @@
 				DEVELOPMENT_TEAM = DD73F8592Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MVVMDemoForBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60C5E9672615DAAB008F5D33 /* Build configuration list for PBXProject "MVVMDemoForBook" */ = {
+		60C5E9672615DAAB008F5D33 /* Build configuration list for PBXProject "GenericDemoForEvent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60C5E97E2615DAAD008F5D33 /* Debug */,
@@ -335,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60C5E9802615DAAD008F5D33 /* Build configuration list for PBXNativeTarget "MVVMDemoForBook" */ = {
+		60C5E9802615DAAD008F5D33 /* Build configuration list for PBXNativeTarget "GenericDemoForEvent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60C5E9812615DAAD008F5D33 /* Debug */,
