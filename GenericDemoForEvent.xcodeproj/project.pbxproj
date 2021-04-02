@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602B9E642616E593004A951C /* Modifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9E632616E593004A951C /* Modifire.swift */; };
 		60C5E9702615DAAB008F5D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E96F2615DAAB008F5D33 /* AppDelegate.swift */; };
 		60C5E9722615DAAB008F5D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E9712615DAAB008F5D33 /* SceneDelegate.swift */; };
 		60C5E9742615DAAB008F5D33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5E9732615DAAB008F5D33 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		602B9E632616E593004A951C /* Modifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifire.swift; sourceTree = "<group>"; };
 		60C5E96C2615DAAB008F5D33 /* GenericDemoForEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericDemoForEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C5E96F2615DAAB008F5D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60C5E9712615DAAB008F5D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602B9E602616E472004A951C /* APIClass */ = {
+			isa = PBXGroup;
+			children = (
+				60C5E9932615E3EA008F5D33 /* TestData.swift */,
+			);
+			path = APIClass;
+			sourceTree = "<group>";
+		};
+		602B9E622616E57C004A951C /* Modifire */ = {
+			isa = PBXGroup;
+			children = (
+				602B9E632616E593004A951C /* Modifire.swift */,
+			);
+			path = Modifire;
+			sourceTree = "<group>";
+		};
 		60C5E9632615DAAB008F5D33 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +86,8 @@
 		60C5E96E2615DAAB008F5D33 /* MVVMDemoForBook */ = {
 			isa = PBXGroup;
 			children = (
+				602B9E622616E57C004A951C /* Modifire */,
+				602B9E602616E472004A951C /* APIClass */,
 				60C5E99C2615F845008F5D33 /* Protocol */,
 				60C5E9962615ED86008F5D33 /* View */,
 				60C5E98C2615E39C008F5D33 /* JsonFile */,
@@ -79,7 +99,6 @@
 				60C5E97A2615DAAD008F5D33 /* LaunchScreen.storyboard */,
 				60C5E97D2615DAAD008F5D33 /* Info.plist */,
 				60C5E9772615DAAD008F5D33 /* Preview Content */,
-				60C5E9932615E3EA008F5D33 /* TestData.swift */,
 			);
 			path = MVVMDemoForBook;
 			sourceTree = "<group>";
@@ -197,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602B9E642616E593004A951C /* Modifire.swift in Sources */,
 				60C5E9702615DAAB008F5D33 /* AppDelegate.swift in Sources */,
 				60C5E9722615DAAB008F5D33 /* SceneDelegate.swift in Sources */,
 				60C5E9892615E17F008F5D33 /* ModelView.swift in Sources */,
